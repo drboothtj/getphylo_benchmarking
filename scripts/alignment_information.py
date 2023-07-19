@@ -5,14 +5,17 @@ Requirements:
 	Bio
 
 Usage:
-	python3 alignment_information.py myalignment.fasta
+	python3 FILENAME
+
+Arguments:
+    FILENAME: The path to the alignment
 '''
 import sys
 from Bio import AlignIO
 
 #1. Read the alignment from the file
-filename = sys.argv[1]
-alignment = AlignIO.read(filename, "fasta")
+FILENAME = sys.argv[1]
+alignment = AlignIO.read(FILENAME, "fasta")
 
 #2. Count informative sites
 num_sequences = len(alignment)
