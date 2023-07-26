@@ -14,13 +14,13 @@ This directory contains the trees produced during benchmarking by getphylo, auto
 ## case_studies
 This directory contains data from four case studies used to demonstrate the utility of getphylo.
 ### case_study_1
-This directory contains data relevent to case study one - a bacterial phylogeny. It includes the input genbank files and the output alignment, partition and tree.
+This directory contains data relevant to case study one - a bacterial phylogeny. It includes the input genbank files and the output alignment, partition and tree.
 ### case_study_2
-This directory contains data relevent to case study two - a phylogeny of a gene clusters related to [resorculin biosynthesis](https://pubmed.ncbi.nlm.nih.gov/36876905/). It includes a list of the input MiBiG accessions and the resorculin BGC as a genbank file. It also includes the output alignment, partition and tree.
+This directory contains data relevant to case study two - a phylogeny of a gene clusters related to [resorculin biosynthesis](https://pubmed.ncbi.nlm.nih.gov/36876905/). It includes a list of the input MiBiG accessions and the resorculin BGC as a genbank file. It also includes the output alignment, partition and tree.
 ### case_study_3
-This directory contains data relevent to case study two - a phylogeny of a primates. It contains a list of NCBI accessions used as input and the output alignment, partition and tree.
+This directory contains data relevant to case study two - a phylogeny of primates. It contains a list of NCBI accessions used as input and the output alignment, partition and tree.
 ### case_study_4
-This directory contains data relevent to case study two - a phylogeny of a Eurotiomycete fungi. It contains a list of strains used as input and the output alignment, partition and tree.
+This directory contains data relevant to case study two - a phylogeny of Eurotiomycete fungi. It contains a list of strains used as input and the output alignment, partition and tree.
 
 ## scripts
 This directory contains three scripts used during benchmark:
@@ -30,8 +30,3 @@ This directory contains three scripts used during benchmark:
 
 # Citation
 Coming soon...
-
-# TODO
-1. add primate partition
-2. add gtdb-tk unrooted script
-
