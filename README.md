@@ -29,7 +29,7 @@ This directory contains three scripts used during benchmark:
 - treesum.py - prints information, such as average branch support, about the supplied newick tree
 
 # Citation
-If you use `getphylo` or make use of the curated benchmarking data/case studies, please cite:
+If you use `getphylo` or make use of the scripts or curated data/case studies in this repository, please cite:
 
 > Booth, T. J., Shaw, S., & Weber, T. (2023). getphylo: rapid and automatic generation of multi-locus phylogenetic trees. BioRxiv, 2023.07.26.550493. 
 
