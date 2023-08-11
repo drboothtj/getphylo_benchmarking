@@ -18,9 +18,9 @@ This directory contains data relevant to case study one - a bacterial phylogeny.
 ### case_study_2
 This directory contains data relevant to case study two - a phylogeny of a gene clusters related to [resorculin biosynthesis](https://pubmed.ncbi.nlm.nih.gov/36876905/). It includes a list of the input MiBiG accessions and the resorculin BGC as a genbank file. It also includes the output alignment, partition and tree.
 ### case_study_3
-This directory contains data relevant to case study two - a phylogeny of primates. It contains a list of NCBI accessions used as input and the output alignment, partition and tree.
+This directory contains data relevant to case study three - a phylogeny of primates. It contains a list of NCBI accessions used as input and the output alignment, partition and tree.
 ### case_study_4
-This directory contains data relevant to case study two - a phylogeny of Eurotiomycete fungi. It contains a list of strains used as input and the output alignment, partition and tree.
+This directory contains data relevant to case study four - a phylogeny of Eurotiomycete fungi. It contains a list of strains used as input and the output alignment, partition and tree.
 
 ## scripts
 This directory contains three scripts used during benchmark:
