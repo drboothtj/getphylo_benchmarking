@@ -25,7 +25,7 @@ This directory contains data relevant to case study four - a phylogeny of Euroti
 ## scripts
 This directory contains three scripts used during benchmark:
 - alignment_information.py - prints information, such as the number of informative sites, about the supplied alignment
-- gtdbtk_unrooted.bash - runs the first two modules of gtdb-tk de novo workflow to produce an unrooted tree
+- gtdbtk_unrooted.bash - runs the first three modules of gtdb-tk de novo workflow to produce an unrooted tree
 - treesum.py - prints information, such as average branch support, about the supplied newick tree
 
 # Citation
