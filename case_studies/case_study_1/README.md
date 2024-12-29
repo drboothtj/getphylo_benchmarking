@@ -14,4 +14,4 @@ This directory contains the following files:
 
 ## Example Command
 Try running:
-`getphylo -g '*.gb`
+`getphylo -g '*.gb'`
