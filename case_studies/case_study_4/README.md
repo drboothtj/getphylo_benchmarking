@@ -1,17 +1,20 @@
-# Case Study 1: Bacterial Genome-Scale Phylogeny
+# Case Study 4: Fungal Genome-Scale Phylogeny from proteomes
 ## Description of Files
 This directory contains the following files:
 
-`*.gb` - example input - a collection of genbank files for bacterial genomes
+`strains.txt` - a list of the strains whose proteomes were downloaded from the NCBI
 
-`bacteria_alignment.fasta` - example output - the concatenated alignment produced by getphylo
+`eurotiomycete_alignment.fasta` - example output - the concatenated alignment produced by getphylo
 
-`bacteria_partition.txt` - example output - the partition produced by getphylo for the above alignment
+`eurotiomycete_partition.txt` - example output - the partition produced by getphylo for the above alignment
 
-`bacteria_tree.tree` - example output - the resulting phylogenetic tree produced by getphylo
+`eurotiomycete_tree.tree` - example output - the resulting phylogenetic tree produced by getphylo
 
 `README.md` - This document!
 
 ## Example Command
 Try running:
-`getphylo -g '*.gb'`
+
+`getphylo -c 8 -cp FASTA_EXTRACTED -g 'output/fasta/*.fasta' –-maxloci 100 -r 111`
+
+**NOTE:** This will only work if you have downloaded the proteomes from the NCBI.
